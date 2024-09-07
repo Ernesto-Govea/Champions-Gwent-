@@ -1,0 +1,47 @@
+DECKS:
+Gestiona el mazo de cartas.
+Permite barajar el mazo al inicio del juego.
+Permite robar cartas del mazo y colocarlas en la mano del jugador.
+Controla el límite de cartas que se pueden robar.
+
+Mano_Controller:
+Gestiona las manos de los jugadores.
+Permite invocar cartas de oro, plata, clima y aumento en las diferentes filas del campo de batalla.
+Controla las posiciones ocupadas en cada fila.
+Asigna las cartas a las posiciones correspondientes en función de su tipo y fila.
+
+Golden_Card:
+Representa las cartas de oro.
+Al hacer clic en una carta de oro, se invoca en la fila correspondiente.
+
+Silver_Card:
+Representa las cartas de plata.
+Al hacer clic en una carta de plata, se invoca en la fila 
+correspondiente.
+Weather_Card:
+Representa las cartas de clima.
+Al hacer clic en una carta de clima, se invoca en la zona de clima.
+
+Aumento_Card:
+Representa las cartas de aumento.
+Al hacer clic en una carta de aumento, se invoca en la zona de aumento.
+
+Ataque_fila:
+Representa la fila de ataque.
+Almacena las posiciones de las cartas en la fila de ataque.
+Controla las cartas invocadas en la fila de ataque.
+
+Distancia_fila:
+Representa la fila de distancia.
+Almacena las posiciones de las cartas en la fila de distancia.
+Controla las cartas invocadas en la fila de distancia.
+
+Asedio_fila:
+Representa la fila de asedio.
+Almacena las posiciones de las cartas en la fila de asedio.
+Controla las cartas invocadas en la fila de asedio.
+
+Clima_fila:
+Representa la fila de clima.
+Almacena las posiciones de las cartas en la fila de clima.
+Controla las cartas de clima invocadas.
