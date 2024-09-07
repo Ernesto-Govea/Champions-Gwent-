@@ -114,7 +114,7 @@ public class Evaluator
     private object EvaluateAssignExpression(AssignExpresion expr, Scope scope)
     {
         var value = Evaluate(expr.Value, scope);
-        scope.AssignVariable(expr.Variable.Name, value);
+        scope.AssignVariable(expr.Variable.Name, value);//
         return value;
     }
 
